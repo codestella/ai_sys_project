@@ -1,0 +1,23 @@
+name: aisiys
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python>=3.8
+  - pip
+  - pip:
+      - opencv-python
+      - imageio
+      - imageio-ffmpeg
+      - ipdb
+      - timm
+      - configargparse
+      - einops
+      - tensorboardX
+  - scipy
+  - numpy
+  - matplotlib
+  - pytorch==1.10.1
+  - torchvision==0.11.2
+  - tqdm
+  - cudatoolkit==11.3.1
